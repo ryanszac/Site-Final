@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNT Mil Grau</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo-milgrau.svg" type="image/svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <ul>
+        <nav class="navbar">
+        <img src="img/logo-milgrau.svg" alt="logo" style="height: 50px; vertical-align: middle;">
+        <h1 style="display: inline; margin-left: 10px;">TNT MIL GRAU</h1> 
+       <li><a style="display: inline; margin-left: 10px;" href="#sobre">Sobre</a> </li>
+       <li><a style="display: inline; margin-left: 10px;" href="#noticias">Notícias</a> </li>
+        <li><a style="display: inline; margin-left: 10px;" href="index.html">Home</a> </li>
+    </ul>
+    </nav>
+    </header>
+
+    <hr class="hr">
+    
+
+    <main>
+        <section class="noticias-destaque">
+            <div class="noticias-container">
+                <h2>Destaques</h2>
+                <div class="card">
+                    <a style="all: unset;" href="yurialberto.html">
+                    <img src="img/Bola-de-Outro_resized.jpeg" alt="Yurialberto">
+                    <h3><a href= "yurialberto.html">Yuri Alberto indicado a premiação Bola de Outro!</a></h3>
+                    <p>Yuri Alberto é indicado a Bola de Outro após uma temporada magnífica com o Timão</p> </a>
+                </div>
+                <div class="card">
+                    <a style="all: unset;" href="harry.html">
+                    <img src="img/Harry-Kane.jpeg" alt="Harry Kane">
+                    <h3><a href="harry.html">Harry Kane se torna o jogador com mais títulos conquistados!</a></h3>
+                    <p> Harry Kane atingiu a marca de 46 títulos, se tornando o maior jogador da história do futebol</p> </a>
+                </div>
+                <div class="card">
+                    <a style="all: unset;" href="sylvinho.html">
+                    <img src="img/Sylvinho.jpeg" alt="Sylvinho">
+                    <h3><a href="sylvinho.html">Sylvinho pode dar as caras no flamengo nessa temporada!</a></h3>
+                    <p>O flamengo busca por um novo treinador e mira em Sylvinho Técnico da Albânia, este que fez um excelente trabalho pela sua seleção</p> </a>
+                </div>
+                <div class="card">
+                    <a style="all: unset;" href="vascodesequilibra.html">
+                    <img src="img/Vasco.jpeg" alt="Vasco">
+                    <h3><a href="vascodesequilibra.html">Vasco desequilibra campeonato Brasileiro!</a></h3>
+                    <p>Após uma série de vitórias esmagadoras o time carioca Vasco da Gama postou uma nota oficial em suas redes sociais</p> </a>
+                </div>
+                <div class="card">
+                    <a style="all: unset;" href="mbappe.html">
+                    <img src="img/Mbappe-Curintia.jpeg" alt="Mbappe">
+                    <h3><a href="receita_docefit.html">Mbappé assina contrato com um novo clube!</a></h3>
+                    <p>Após uma série de má atuações com a camisa do Real Madrid, Mbappé busca novos desafios e segue os passos de seu ídolo Cássio Ramos</p> </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="outrasnoticias-container">
+            <h2 id="noticias">Notícias</h2>
+            <div class="card-horizontal">
+                <video class="video-player" src="assets/neymarvid.mp4" controls width="350" poster="assets/neymidia.jpeg"> </video>
+                <h3 style="color: #141c2c; text-transform: uppercase; font-size: 1.1rem;
+  margin-bottom: 8px; font-family: 'Bebas Neue', sans-serif;" >Neymar fala sua opinião sobre a escala 6x1!</h3>
+
+<video class="video-player" src="assets/ViniGentileza.mp4" controls width="350" poster="assets/vinigentileza.jpg"> </video>
+<h3 style="color: #141c2c; text-transform: uppercase; font-size: 1.1rem;
+margin-bottom: 8px; font-family: 'Bebas Neue', sans-serif;" >Vini Jr expõe a realidade do porque ele é Gentil pela seleção Brasileira!</h3>
+            </div>
+
+        </section>
+    </main>
+
+    <footer id="sobre">
+      Site focado no entretenimento, nenhuma notícia aqui é verdadeira !
+    </footer>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navbar = document.querySelector(".navbar");
+    
+        menuToggle.addEventListener("click", function() {
+            navbar.classList.toggle("active");
+        });
+    }); </script>
+
+</body>
+</html>
